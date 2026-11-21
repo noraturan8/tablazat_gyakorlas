@@ -1,0 +1,36 @@
+table {
+    width: 40%;
+    margin: auto;
+}
+
+table,
+td,
+th {
+
+    border: 1px solid black;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    color:rgb(33, 4, 4);
+    padding: 2px;
+}
+
+tr:nth-child(even) {
+
+    background-color: antiquewhite;
+
+}
+
+tr:nth-child(odd)
+{
+
+background-color: lightgrey;
+
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin: auto;
+}
